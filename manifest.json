@@ -1,11 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Gemini Website Recommender",
+  "name": "IIRC",
   "version": "1.0",
   "description": "Get website recommendations using Gemini AI",
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "tabs",
+    "downloads"
   ],
   "action": {
     "default_popup": "popup.html",
